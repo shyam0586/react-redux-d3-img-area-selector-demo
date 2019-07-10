@@ -1,0 +1,86 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfff4+0,e9e9ce+100;Wax+3D+%232 */
+  background: rgb(252, 255, 244); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(252, 255, 244, 1) 0%,
+    rgba(233, 233, 206, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(252, 255, 244, 1) 0%,
+    rgba(233, 233, 206, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(252, 255, 244, 1) 0%,
+    rgba(233, 233, 206, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=0 ); /* IE6-9 */
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  z-index: 999;
+  position: relative;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+  background: rgb(125, 126, 125); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(125, 126, 125, 1) 0%,
+    rgba(14, 14, 14, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(125, 126, 125, 1) 0%,
+    rgba(14, 14, 14, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(125, 126, 125, 1) 0%,
+    rgba(14, 14, 14, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+  width: 100%;
+  height: 45px;
+  float: left;
+}
+
+.navbar p {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 30px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.svg-holder {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.text-holder {
+  color: #666;
+  float: left;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.text-holder p {
+  cursor: pointer;
+  padding: 10px;
+}
